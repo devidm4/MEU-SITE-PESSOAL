@@ -1,0 +1,20 @@
+main div img {
+    height: 200px;
+}
+/* código de diminuição da imagem de potfólio */
+
+main{
+    text-align: center;
+}
+
+.intem-portfólio{
+    display: inline-block;
+    margin: 50px;
+    border: 1px solid #515f69;
+}
+
+.intem-portfólio a  {
+    text-decoration: none;
+    color: #515f69;
+    font-weight: bold;
+}
