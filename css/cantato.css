@@ -5,6 +5,12 @@ form{
     border-radius: 15px;
     background-color:#8fcdd9;
 }
+main form span.span-required{
+    display: none;
+    font-size: 12px;
+    margin: 5px 0 0 1px;
+    color: #f00;
+}
 
 
 form fieldset{

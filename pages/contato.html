@@ -31,20 +31,22 @@
         <main>
            
            <form action="">
-
              <fieldset>
                 <label for="input-nome">Nome</label>
-                <input type="text" name="input-nome" id="input-nome">
+                <input type="text" name="input-nome" id="input-nome" oninput="validar_nome()">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
              </fieldset>
 
              <fieldset>
                 <label for="input-email">E-mail</label>
-                <input type="email" name="input-email" id="input-email">
+                <input type="email" name="input-email" id="input-email" oninput="validar_email()">
+                <span class="span-required">E-mail inválido</span>
              </fieldset>
 
              <fieldset>
                 <label for="input-tel">Telefone</label>
                 <input type="tel" name="input-tel" id="input-tel">
+                <span class="span-required">Numero de Telefone inválido</span>
              </fieldset>
 
              <fieldset>
@@ -61,6 +63,7 @@
         </main>
 
     <footer>Desenvolvido com muito trabalho por Devid Matheus</footer>
+    <script src="/script/script.js"></script>    
 
     </body>
 </html>
